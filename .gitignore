@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+cypress/.DS_Store
+
+# Sensitive
+.npmrc
+
+# Other stuff 
+.DS_Store
+package-lock.json
