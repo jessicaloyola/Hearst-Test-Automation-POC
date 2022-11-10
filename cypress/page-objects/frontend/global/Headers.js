@@ -1,17 +1,17 @@
 export class Header {
-    
+
     constructor() {
         // Locators goes here
 
-        this.signinButton = "//span[contains(text(),'sign in')]"
-        this.subscribeButton = "//body/div[@id='__next']/div[1]/nav[1]/div[1]/a[3]"
+        this.signinButton       = "//span[contains(text(),'sign in')]"
+        this.subscribeButton    = "//body/div[@id='__next']/div[1]/nav[1]/div[1]/a[3]"
         this.favoriteThingsLink = "//a[normalize-space()='Favorite Things']"
-        this.wellnessLink = "//a[normalize-space()='Wellness']"
-        this.booksLink = "//a[normalize-space()='Books']"
-        this.delightsLink = "//a[normalize-space()='Wellness']"
-        this.intentionLink = "//a[normalize-space()='Intention']"
-        this.oprahDailyLogo = "//body/div[@id='__next']/div[1]/nav[1]/div[1]/a[2]"
-        this.burgerMenuIcon = "//a[@aria-label='Sidepanel Button']"
+        this.wellnessLink       = "//a[normalize-space()='Wellness']"
+        this.booksLink          = "//a[normalize-space()='Books']"
+        this.delightsLink       = "//a[normalize-space()='Wellness']"
+        this.intentionLink      = "//a[normalize-space()='Intention']"
+        this.oprahDailyLogo     = "//body/div[@id='__next']/div[1]/nav[1]/div[1]/a[2]"
+        this.burgerMenuIcon     = "//a[@aria-label='Sidepanel Button']"
     }
 
     // Methods goes here
